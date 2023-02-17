@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'icem_be.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'idem_db',
+        'NAME': 'YOUR DATABASE',
         'USER': 'sa',
-        'PASSWORD': 'r00t.R00T',
-        'HOST': 'sqlserver',
+        'PASSWORD': 'YOUR PASSWORD',
+        'HOST': 'DOCKER HOST',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
